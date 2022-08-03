@@ -1,0 +1,46 @@
+.of-ergraph-group {
+  background: #fff;
+  min-width: 256px;
+  max-width: 360px;
+  border-radius: 8px;
+  border: 0 solid #1890ff;
+  border-top-width: 8px;
+  box-shadow: 0 0px 12px 2px rgba(0, 0, 0, 0.1);
+
+  .ergraph-group-header {
+    text-align: center;
+    padding: 8px 24px;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid #edf2f7;
+  }
+
+  .ergraph-group-list {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+
+    li {
+      font-size: 14px;
+      line-height: 20px;
+      padding: 5px 10px;
+      border-radius: 3px;
+      transition: all .3s;
+      cursor: pointer;
+
+      &:hover {
+        background: #F2F6FC;
+      }
+
+      .ergraph-group-tips {
+        float: right;
+        margin-left: 10px;
+        color: #999;
+      }
+
+      .ergraph-group-text {
+        overflow: hidden;
+      }
+    }
+  }
+}
