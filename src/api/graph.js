@@ -147,11 +147,11 @@ const mockRelationData = [
     sourceEntityId: 'fact_1',
     targetEntityId: 'fact_up'
   },
-  {
-    relationId: 'relationId_1_loop',
-    sourceEntityId: 'fact_1',
-    targetEntityId: 'fact_1'
-  },
+  // {
+  //   relationId: 'relationId_1_loop',
+  //   sourceEntityId: 'fact_1',
+  //   targetEntityId: 'fact_1'
+  // },
   {
     relationId: 'relationId_2',
     sourceEntityId: 'dim_up',
